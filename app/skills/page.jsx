@@ -127,6 +127,14 @@ const achievements = {
   title: "Achievements",
   items: [
     {
+      title: "3rd Place at CIDECODE Hackathon",
+      description: "Our team secured 3rd Place at the prestigious CID < CIDECODE /> Hackathon, organized by Crime Investigation Department (CID) -Karnataka, Data Security Council of India (DSCI), and PESU, for developing a Blockchain-based Digital Evidence Chain-of-Custody Tracker that ensures immutable, transparent, and tamper-proof records of evidence transfer, providing full traceability from collection to verdict while enhancing trust and accountability for law enforcement agencies.",
+    },
+    {
+      title: "National Finalist, Jagriti 2025, IIT-BHU",
+      description: "National Finalist in Serve and Smart Hackathon 2025 (flagship AI/ML Hackathon organised as part of Jagriti 2025) - Selected among top 10 teams across India for the final round at IIT BHU.",
+    },
+    {
       title: "Dr. M R Doreswamy Merit Scholarship Award",
       description: "Recognized for being amongst the top 20% SGPA in the department.",
     },

@@ -16,6 +16,15 @@ import WorkSlidingBtns from "@/components/WorkSlidingBtns";
 const projects = [
   {
     num: "01",
+    title: "Void Ink Studio",
+    descriptiton: "Void Ink Studio is a responsive and visually stunning website built using React.js. It is a creative tattoo studio specializing in custom, intricate tattoo designs that blend artistic expression with personal storytelling, delivering unique and meaningful body art.",
+    stack: [{name: "React.js"}, {name: "Framer Motion"}, {name: "Tailwind CSS"}],
+    image: "/assets/projects/vis.jpg",
+    live: "https://voidinkstudio.vercel.app/",
+    github: "https://github.com/siri-n-shetty/void-ink-studio",
+  },
+  {
+    num: "02",
     title: "Connect Four",
     descriptiton: "Developed a fully functional two-player Connect Four game, implemented using BreezyPythonGUI for input handling. Crafted algorithms to determine game outcomes, used MySQL, BreezyPythonGUI, and the ‘tabulate’ module for dynamic board display and enhanced user experience.",
     stack: [{name: "Python"}, {name: "MySQL"}],
@@ -24,7 +33,7 @@ const projects = [
     github: "https://github.com/siri-n-shetty/Connect-Four-Mini-Project-Sem-1",
   },
   {
-    num: "02",
+    num: "03",
     title: "PESU Event Management System",
     descriptiton: "Built a centralized scalable platform to streamline event registrations and recruitments for 100+ university clubs. Replaces Google Forms by automating student data retrieval with user-friendly interface & role-based access control(RBAC).",
     stack: [{name: "React.js"}, {name: "Tailwind CSS"}, {name: "MySQL"}, {name: "Flask"}],
@@ -33,7 +42,7 @@ const projects = [
     github: "https://github.com/siri-n-shetty/PESU_Integrated_Event_Management_System",
   },
   {
-    num: "03",
+    num: "04",
     title: "PESUfy",
     descriptiton: "Developed a website that serves as a resource for incoming juniors at PESU. It streamlines their college experience by providing clear information about the academics and facilities provided by the college.",
     stack: [{name: "JavaScript"}, {name: "Golang"}, {name: "Netlify"}],
@@ -42,7 +51,7 @@ const projects = [
     github: "https://github.com/siri-n-shetty/pesufy",
   },
   {
-    num: "04",
+    num: "05",
     title: "Live Chat Application",
     descriptiton: "Implemented sockets in Flask backend, (using Flask-SocketIO library) and frontend code in HTML, JavaScript. It uses Flask's session management to store information about the user's name and the room they have joined.",
     stack: [{name: "Python"}, {name: "Flask"}, {name: "HTML/CSS"}, {name: "JavaScript"}],
@@ -51,7 +60,7 @@ const projects = [
     github: "https://github.com/siri-n-shetty/Live-Chat-App-using-Flask",
   },
   {
-    num: "05",
+    num: "06",
     title: "Arcade Game",
     descriptiton: "Interstellar Evasion is a simple arcade-style game where the player controls a red rectangle to avoid falling stars coming from above. The game keeps track of the time spent playing, and the player can move the rectangle left and right using the arrow keys to dodge the stars.",
     stack: [{name: "Python"}],
@@ -60,7 +69,7 @@ const projects = [
     github: "https://github.com/siri-n-shetty/Arcade-Game-using-Pygame",
   },
   {
-    num: "06",
+    num: "07",
     title: "Smart Bands System using Cooja",
     descriptiton: "The system consists of parent and child bands that communicate wirelessly to monitor the child's status and alert the parent in case of emergencies such as falls or prolonged absence.",
     stack: [{name: "Cooja Simulator"}, {name: "Contiki OS"}],
