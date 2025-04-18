@@ -16,44 +16,44 @@ import WorkSlidingBtns from "@/components/WorkSlidingBtns";
 const projects = [
   {
     num: "01",
+    title: "HashProof",
+    description: "Built a Blockchain-Based Digital Evidence Chain-of-Custody Tracker using MultiChain, using it for blockchain security and decentralized storage via IPFS. Ensured tamper-proof logs, and role-based access control for secure forensic workflows.",
+    stack: [{name: "MultiChain"}, {name: "IPFS"}, {name: "React.js"}, {name: "TailwindCSS"}, {name: "Flask"}],
+    image: "/assets/projects/hp.png",
+    live: "",
+    github: "https://github.com/siri-n-shetty/ChainOfJustice",
+  },
+  {
+    num: "02",
+    title: "Load-Balanced URL Shortener",
+    description: "Built and deployed a containerized URL Shortener that supports scalability, load balancing & Horizontal Pod Autoscaling (HPA). Integrated in-memory storage, logging, monitoring tools, and stress testing for real-time performance insights.",
+    stack: [{name: "Docker"}, {name: "Kubernetes"}, {name: "Flask"}, {name: "Redis"}],
+    image: "/assets/projects/lbus.png",
+    live: "",
+    github: "https://github.com/siri-n-shetty/556_568_575_600_Load-Balanced-URL-Shortener",
+  },
+  {
+    num: "03",
     title: "Void Ink Studio",
-    descriptiton: "Void Ink Studio is a responsive and visually stunning website built using React.js. It is a creative tattoo studio specializing in custom, intricate tattoo designs that blend artistic expression with personal storytelling, delivering unique and meaningful body art.",
+    description: "Void Ink Studio is a responsive and visually stunning website built using React.js. It is a creative tattoo studio specializing in custom, intricate tattoo designs that blend artistic expression with personal storytelling, delivering unique and meaningful body art.",
     stack: [{name: "React.js"}, {name: "Framer Motion"}, {name: "Tailwind CSS"}],
     image: "/assets/projects/vis.jpg",
     live: "https://voidinkstudio.vercel.app/",
     github: "https://github.com/siri-n-shetty/void-ink-studio",
   },
   {
-    num: "02",
-    title: "Connect Four",
-    descriptiton: "Developed a fully functional two-player Connect Four game, implemented using BreezyPythonGUI for input handling. Crafted algorithms to determine game outcomes, used MySQL, BreezyPythonGUI, and the ‘tabulate’ module for dynamic board display and enhanced user experience.",
-    stack: [{name: "Python"}, {name: "MySQL"}],
-    image: "/assets/projects/cf.jpg",
-    live: "",
-    github: "https://github.com/siri-n-shetty/Connect-Four-Mini-Project-Sem-1",
-  },
-  {
-    num: "03",
+    num: "04",
     title: "PESU Event Management System",
-    descriptiton: "Built a centralized scalable platform to streamline event registrations and recruitments for 100+ university clubs. Replaces Google Forms by automating student data retrieval with user-friendly interface & role-based access control(RBAC).",
+    description: "Built a centralized scalable platform to streamline event registrations and recruitments for 100+ university clubs. Replaces Google Forms by automating student data retrieval with user-friendly interface & role-based access control(RBAC).",
     stack: [{name: "React.js"}, {name: "Tailwind CSS"}, {name: "MySQL"}, {name: "Flask"}],
     image: "/assets/projects/piems.jpg",
     live: "",
     github: "https://github.com/siri-n-shetty/PESU_Integrated_Event_Management_System",
   },
   {
-    num: "04",
-    title: "PESUfy",
-    descriptiton: "Developed a website that serves as a resource for incoming juniors at PESU. It streamlines their college experience by providing clear information about the academics and facilities provided by the college.",
-    stack: [{name: "JavaScript"}, {name: "Golang"}, {name: "Netlify"}],
-    image: "/assets/projects/pesufy.jpg",
-    live: "https://pesufy.netlify.app/",
-    github: "https://github.com/siri-n-shetty/pesufy",
-  },
-  {
     num: "05",
     title: "Live Chat Application",
-    descriptiton: "Implemented sockets in Flask backend, (using Flask-SocketIO library) and frontend code in HTML, JavaScript. It uses Flask's session management to store information about the user's name and the room they have joined.",
+    description: "Implemented sockets in Flask backend, (using Flask-SocketIO library) and frontend code in HTML, JavaScript. It uses Flask's session management to store information about the user's name and the room they have joined.",
     stack: [{name: "Python"}, {name: "Flask"}, {name: "HTML/CSS"}, {name: "JavaScript"}],
     image: "/assets/projects/lca.jpg",
     live: "",
@@ -61,17 +61,35 @@ const projects = [
   },
   {
     num: "06",
+    title: "PESUfy",
+    description: "Developed a website that serves as a resource for incoming juniors at PESU. It streamlines their college experience by providing clear information about the academics and facilities provided by the college.",
+    stack: [{name: "JavaScript"}, {name: "Golang"}, {name: "Netlify"}],
+    image: "/assets/projects/pesufy.jpg",
+    live: "https://pesufy.netlify.app/",
+    github: "https://github.com/siri-n-shetty/pesufy",
+  },
+  {
+    num: "07",
+    title: "Connect Four",
+    description: "Developed a fully functional two-player Connect Four game, implemented using BreezyPythonGUI for input handling. Crafted algorithms to determine game outcomes, used MySQL, BreezyPythonGUI, and the ‘tabulate’ module for dynamic board display and enhanced user experience.",
+    stack: [{name: "Python"}, {name: "MySQL"}],
+    image: "/assets/projects/cf.jpg",
+    live: "",
+    github: "https://github.com/siri-n-shetty/Connect-Four-Mini-Project-Sem-1",
+  },
+  {
+    num: "08",
     title: "Arcade Game",
-    descriptiton: "Interstellar Evasion is a simple arcade-style game where the player controls a red rectangle to avoid falling stars coming from above. The game keeps track of the time spent playing, and the player can move the rectangle left and right using the arrow keys to dodge the stars.",
+    description: "Interstellar Evasion is a simple arcade-style game where the player controls a red rectangle to avoid falling stars coming from above. The game keeps track of the time spent playing, and the player can move the rectangle left and right using the arrow keys to dodge the stars.",
     stack: [{name: "Python"}],
     image: "/assets/projects/ag.jpg",
     live: "",
     github: "https://github.com/siri-n-shetty/Arcade-Game-using-Pygame",
   },
   {
-    num: "07",
+    num: "09",
     title: "Smart Bands System using Cooja",
-    descriptiton: "The system consists of parent and child bands that communicate wirelessly to monitor the child's status and alert the parent in case of emergencies such as falls or prolonged absence.",
+    description: "The system consists of parent and child bands that communicate wirelessly to monitor the child's status and alert the parent in case of emergencies such as falls or prolonged absence.",
     stack: [{name: "Cooja Simulator"}, {name: "Contiki OS"}],
     image: "/assets/projects/sms.jpg",
     live: "",
@@ -104,7 +122,7 @@ const Projects = () => {
               {/** Project Title */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{project.title}</h2>
               {/** Project Description */}
-              <p className="text-white/60">{project.descriptiton}</p>
+              <p className="text-white/60">{project.description}</p>
               {/** Project Stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index)=>{

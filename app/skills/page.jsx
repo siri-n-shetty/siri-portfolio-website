@@ -5,96 +5,114 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
-import { 
-  SiC, 
-  SiMongodb, 
-  SiTailwindcss, 
-  SiNextdotjs,
-  SiMysql,
-  SiWireshark,
-  SiBlender,
-  SiPython, 
-  SiHtml5, 
-  SiCss3, 
-  SiJavascript, 
-  SiReact, 
-  SiFigma, 
-  SiNodedotjs, 
-  SiWordpress, 
-  SiGit,
-  SiGo
-} from "react-icons/si";
+import * as SiIcons from "react-icons/si";
 
 {/* skills data */}
 const skills = {
   title: "Skills",
   skilllist: [
     {
-      icon: <SiPython />,
+      icon: <SiIcons.SiPython />,
       name: "Python",
     },
     {
-      icon: <SiC />,
+      icon: <SiIcons.SiC />,
       name: "C",
     },
     {
-      icon: <SiGo />,
+      icon: <SiIcons.SiGo />,
       name: "Golang",
     },
     {
-      icon: <SiHtml5 />,
+      icon: <SiIcons.SiHtml5 />,
       name: "HTML",
     },
     {
-      icon: <SiCss3 />,
+      icon: <SiIcons.SiCss3 />,
       name: "CSS",
     },
     {
-      icon: <SiTailwindcss />,
+      icon: <SiIcons.SiTailwindcss />,
       name: "Tailwind CSS",
     },
     {
-      icon: <SiJavascript />,
+      icon: <SiIcons.SiJavascript />,
       name: "JavaScript",
     },
     {
-      icon: <SiReact />,
+      icon: <SiIcons.SiReact />,
       name: "React.js",
     },
     {
-      icon: <SiNextdotjs />,
+      icon: <SiIcons.SiNextdotjs />,
       name: "Next.js",
     },
     {
-      icon: <SiNodedotjs />,
+      icon: <SiIcons.SiDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <SiIcons.SiKubernetes />,
+      name: "Kubernetes",
+    },
+    {
+      icon: <SiIcons.SiUbuntu />,
+      name: "Ubuntu",
+    },
+    {
+      icon: <SiIcons.SiNodedotjs />,
       name: "Node.js",
     },
     {
-      icon: <SiMongodb />,
+      icon: <SiIcons.SiMongodb />,
       name: "Mongo DB",
     },
     {
-      icon: <SiMysql />,
+      icon: <SiIcons.SiMysql />,
       name: "MySQL",
     },
     {
-      icon: <SiWordpress />,
+      icon: <SiIcons.SiFlask />,
+      name: "Flask",
+    },
+    {
+      icon: <SiIcons.SiTensorflow />,
+      name: "TensorFlow",
+    },
+    {
+      icon: <SiIcons.SiScikitlearn />,
+      name: "Scikit-learn",
+    },
+    {
+      icon: <SiIcons.SiPandas />,
+      name: "Pandas",
+    },
+    {
+      icon: <SiIcons.SiNumpy />,
+      name: "NumPy",
+    },
+    {
+      icon: <SiIcons.SiPytorch />,
+      name: "PyTorch",
+    },
+    {
+      icon: <SiIcons.SiWordpress />,
       name: "WordPress",
     },
     {
-      icon: <SiFigma />,
+      icon: <SiIcons.SiFigma />,
       name: "Figma",
     },
     {
-       icon: <SiGit />,
+       icon: <SiIcons.SiGit />,
        name: "Git",
     },
     {
-      icon: <SiWireshark />,
+      icon: <SiIcons.SiWireshark />,
       name: "Wireshark",
     },
     {
-      icon: <SiBlender />,
+      icon: <SiIcons.SiBlender />,
       name: "Blender",
     },
   ]
@@ -128,7 +146,7 @@ const achievements = {
   items: [
     {
       title: "3rd Place at CIDECODE Hackathon",
-      description: "Our team secured 3rd Place at the prestigious CID < CIDECODE /> Hackathon, organized by Crime Investigation Department (CID) -Karnataka, Data Security Council of India (DSCI), and PESU, for developing a Blockchain-based Digital Evidence Chain-of-Custody Tracker that ensures immutable, transparent, and tamper-proof records of evidence transfer, providing full traceability from collection to verdict while enhancing trust and accountability for law enforcement agencies.",
+      description: "Our team secured 3rd Place at the prestigious CID < CIDECODE /> Hackathon, organized by Crime Investigation Department (CID) -Karnataka, Data Security Council of India (DSCI), and PESU, for developing a Blockchain-based Digital Evidence Chain-of-Custody Tracker for law enforcement agencies.",
     },
     {
       title: "National Finalist, Jagriti 2025, IIT-BHU",
