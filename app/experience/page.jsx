@@ -7,18 +7,39 @@ import { motion } from 'framer-motion';
 const experiences = [
   {
     num: "01",
-    title: "WiE Chair",
-    company: "IEEE Student Branch PESU-ECC",
-    tenure: "August 2024 - Present",
+    title: "Software Development Intern",
+    company: "Criminal Investigation Department - Karnataka",
+    tenure: "August 2025 - Present",
     description: [
-      "Organized and led a flagship hackathon featuring both traditional hackathon tracks and Capture the Flag (CTF) challenges, achieving the highest footfall and registrations for the Fall Semester 2024.",
-      "Directed workshops focusing on technical skill development and community building.",
-      "Spearheaded recruitment drives, including strategizing, interviewing, and onboarding.",
+      "Developing an open-source cyber forensic web tool that will be used by law enforcement agencies and police for analyzing forensic dumps (E01, RAW, DD), performing image carving, and categorizing media using machine learning models (YOLOv8, NudeNet, Dlib).",
+      "Designing a modular full-stack architecture with a React-based UI, Python backend, MongoDB storage, and real-time WebSocket updates for streamlined investigator workflows.",
     ],
-    href: "https://www.instagram.com/ieee_pesuecc_sb/",
+    href: "https://www.linkedin.com/posts/siri-n-shetty_i-am-happy-to-share-that-my-team-chain-of-activity-7308063022156021760-4bkb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVB13wBKkCCy_YDrL_gHPmJOMHntLjQ38o",
   },
   {
     num: "02",
+    title: "Summer Intern",
+    company: "PESU Venture Labs",
+    tenure: "June 2025 - Present",
+    description: [
+      "Building an Agentic AI workflow to autonomously search, retrieve and summarize research papers from sources like arXiv, enabling rapid extraction of insights using LangChain.",
+      "Conducted market and competitive research on venture-capital backed startups and existing Agentic-AI platforms, identifying limitations in solutions leveraging Retrieval-Augmented Generation, and Machine Unlearning.",
+    ],
+    href: "https://www.pesuventurelabs.com/",
+  },
+  {
+    num: "03",
+    title: "Teaching Assistant",
+    company: "PES Univeristy",
+    tenure: "June 2025 - Present",
+    description: [
+      "Assisting in the course UE24CS251A – Digital Design and Computer Organisation (DDCO), under Prof. Deepti C, Dr. Prajwala T R, and Dr. Rajeshwari B.",
+      "Preparing teaching material, and enhancing lab sessions by designing hands-on Verilog experiments.",
+    ],
+    href: "https://www.linkedin.com/posts/siri-n-shetty_im-happy-to-share-that-im-starting-a-new-activity-7343531832182743040-kqSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVB13wBKkCCy_YDrL_gHPmJOMHntLjQ38o",
+  },
+  {
+    num: "04",
     title: "Research Intern",
     company: "Centre of Cognitive Computing and Computational Intelligence (C3I)",
     tenure: "May 2024 - August 2024",
@@ -29,7 +50,19 @@ const experiences = [
     href: "https://www.linkedin.com/posts/siri-n-shetty_im-excited-to-share-the-completion-of-my-activity-7253079149332844546-94jE?utm_source=share&utm_medium=member_desktop",
   },
   {
-    num: "03",
+    num: "05",
+    title: "WiE Chair",
+    company: "IEEE Student Branch PESU-ECC",
+    tenure: "August 2024 - August 2025",
+    description: [
+      "Organized and led a flagship hackathon featuring both traditional hackathon tracks and Capture the Flag (CTF) challenges, achieving the highest footfall and registrations for the Fall Semester 2024.",
+      "Directed workshops focusing on technical skill development and community building.",
+      "Spearheaded recruitment drives, including strategizing, interviewing, and onboarding.",
+    ],
+    href: "https://www.instagram.com/ieee_pesuecc_sb/",
+  },
+  {
+    num: "06",
     title: "Operations Executive",
     company: "PESU I/O",
     tenure: "August 2023 - June 2024",
@@ -41,17 +74,6 @@ const experiences = [
       "Organized green room equipment setup for events, collaborated with teams, and handled scheduling and permissions.",
     ],
     href: "https://pesu.io/teams/",
-  },
-  {
-    num: "04",
-    title: "Social Media and Marketing Lead",
-    company: "C-ISFCR PESU",
-    tenure: "September 2023",
-    description: [
-      "Played a key role in organizing the CTF Hackathon at PESU, EC Campus.",
-      "Contributed significantly to marketing and social media outreach, resulting in the event achieving the highest footfall and registrations among all events conducted during Fall Semester 2023.",
-    ],
-    href: "https://www.isfcr.pes.edu/",
   },
 ];
 

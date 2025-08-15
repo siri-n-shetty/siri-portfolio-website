@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import {FaGithub, FaLinkedinIn, FaGlobe} from 'react-icons/fa';
 import { SiLeetcode } from "react-icons/si";
+import { SiCodeforces } from "react-icons/si";
 import { IoMdMail } from "react-icons/io";
 
 const socials = [
@@ -10,6 +11,7 @@ const socials = [
     {icon: <IoMdMail />, path: 'mailto:sirishetty.narendra@gmail.com'},
     {icon: <FaGlobe />, path: 'https://siri123blog.wordpress.com/'},
     {icon: <SiLeetcode />, path: 'https://leetcode.com/u/siri_n_shetty/'},
+    {icon: <SiCodeforces />, path: 'https://codeforces.com/profile/siri-n-shetty/'},
 ]
 
 const Social = ({containerStyles, iconStyles}) => {
