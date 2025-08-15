@@ -30,7 +30,7 @@ const experiences = [
   {
     num: "03",
     title: "Teaching Assistant",
-    company: "PES Univeristy",
+    company: "PES University",
     tenure: "June 2025 - Present",
     description: [
       "Assisting in the course UE24CS251A – Digital Design and Computer Organisation (DDCO), under Prof. Deepti C, Dr. Prajwala T R, and Dr. Rajeshwari B.",
