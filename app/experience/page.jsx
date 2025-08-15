@@ -9,7 +9,7 @@ const experiences = [
     num: "01",
     title: "Software Development Intern",
     company: "Criminal Investigation Department - Karnataka",
-    tenure: "August 2025 - Present",
+    tenure: "Since August 2025",
     description: [
       "Developing an open-source cyber forensic web tool that will be used by law enforcement agencies and police for analyzing forensic dumps (E01, RAW, DD), performing image carving, and categorizing media using machine learning models (YOLOv8, NudeNet, Dlib).",
       "Designing a modular full-stack architecture with a React-based UI, Python backend, MongoDB storage, and real-time WebSocket updates for streamlined investigator workflows.",

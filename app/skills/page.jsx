@@ -146,7 +146,7 @@ const achievements = {
   items: [
     {
       title: "3rd Place at CIDECODE Hackathon",
-      description: "Our team secured 3rd Place at the prestigious CID < CIDECODE /> Hackathon, organized by Crime Investigation Department (CID) -Karnataka, Data Security Council of India (DSCI), and PESU, for developing a Blockchain-based Digital Evidence Chain-of-Custody Tracker for law enforcement agencies.",
+      description: "Our team secured 3rd Place and won an internship offer at the prestigious CID < CIDECODE /> Hackathon, organized by Crime Investigation Department (CID) -Karnataka, Data Security Council of India (DSCI), and PESU, for developing a Blockchain-based Digital Evidence Chain-of-Custody Tracker for law enforcement agencies.",
     },
     {
       title: "National Finalist, Jagriti 2025, IIT-BHU",
